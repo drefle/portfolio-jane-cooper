@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jane Cooper - Découvrez mes compétences</title>
+    <meta
+      name="description"
+      content="Je suis Jane Cooper, développeuse web freelance depuis 12 ans. Mon domaine d'expertise s'étend de l'intégration à la configuration back-end."
+    />
+    <link
+      rel="shortcut icon"
+      href="images/general/favicon.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="dist/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-poppins">
+
+    <header>
+
+      <nav class="bg-white z-50 fixed top-0 w-full shadow">
+        <div class="flex items-center justify-between bg-white p-4 mx-auto flex-wrap max-w-3xl md:p-5">
+          <a class="text-lg lg:text-xl"><span>Jane </span><span class="font-bold">C<span class="text-rose-600">.</span></span></a>
+          <button aria-controls="main-navlist" aria-expanded="false" id="menu-toggler" class="cursor-pointer w-7 md:hidden"><img src="./images/hero/menu.svg" alt="menu deroulant"></button>
+          <ul id="main-navlist" class="text-center w-full pt-4 text-gray-800 md:w-fit md:block hidden md:pt-0">
+            <li class="py-3 block md:inline md:mr-6 md:py-0 hover:text-rose-600">
+              <a class="text-sm font-semibold uppercase" href="#cv">Cv</a>
+            </li>
+            <li class="py-3 block md:inline md:mr-6 md:py-0 hover:text-rose-600">
+              <a class="text-sm font-semibold uppercase" href="#competences">Compétences</a>
+            </li>
+            <li class="py-3 block md:inline md:mr-6 md:py-0 hover:text-rose-600">
+              <a class="text-sm font-semibold uppercase" href="#projets">Projets</a>
+            </li>
+            <li class="py-3 block md:inline md:py-0 hover:text-rose-600">
+              <a class="text-sm font-semibold uppercase" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+    </header>
+
+    <div class="px-6 pt-32 relative text-center text-main">
+      <div class="relative mx-auto w-44 mb-10 md:w-64
+      before:absolute before:w-20 before:h-20 before:border-2 before:-top-3 before:-right-3 before:border-main before:-z-10 md:before:w-28 md:before:h-28
+      after:w-20 after:h-20 after:border-2 after:-bottom-3 after:-left-3 after:border-main after:-z-10 after:absolute md:after:w-28 md:after:h-28
+      ">
+        <img src="./images/hero/main-portrait.jpg" alt="portrait Jane Cooper">
+      </div>
+      <p class="mb-8 sm:text-lg md:text-3xl">Bonjour, je suis <span class="font-bold">Jane Cooper</span></p>
+      <h1 class="font-lora text-4xl my-4 mb-12 max-w-xs mx-auto sm:mb-14 sm:text-5xl sm:max-w-md md:text-6xl md:max-w-xl">Développeuse <span class="italic">Freelance</span> en quête de projets<span class="text-red-dark">.</span></h1>
+      <a class=" group py-4 px-6 bg-main hover:bg-main-light text-xs duration-200 text-white inline-flex justify-center items-center mb-20 sm:text-sm md:text-base md:px-10" href="#competences">Mes compétences <img  class="ml-4 group-hover:translate-y-0.5 duration-200" src="./images/general/arrowDown.png" alt=""></a>
+      <img width="580" height="1255" class="absolute h-full object-cover -z-20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" src="./images/hero/decoration.png" alt="decoration">
+    </div>
+
+    <main>
+      <section class="pt-14 pb-12 px-4 bg-main md:pt-16 lg:pb-20">
+        <p class="italic font-lora text-sm text-center text-gray-light mb-4 md:text-lg">Des particuliers aux entreprises</p>
+        <h2 class="relative z-0 mb-7 text-white text-center font-lora text-2xl w-fit mx-auto sm:text-4xl md:text-5xl md:mb-12
+        after:absolute after:-bottom-0 after:w-full after:h-2 after:bg-main-light after:left-0 after:-z-10 after:sm:h-5 after:sm:-bottom-2">
+        Ils m'ont fait confiance</h2>
+        <div class="grid grid-cols-2 mx-auto max-w-sm mt-8 sm:grid-cols-4 sm:max-w-xl lg:max-w-2xl">
+          <div class="flex justify-center"><img width="132" height="80" class="object-cover h-16 sm:h-20" src="./images/company/Google.png" alt="google"></div>
+          <div class="flex justify-center"><img width="132" height="80" class="object-cover h-16 sm:h-20" src="./images/company/Spotify.png" alt="Spotify"></div>
+          <div class="flex justify-center"><img width="132" height="80" class="object-cover h-16 sm:h-20" src="./images/company/Stripe.png" alt="Stripe"></div>
+          <div class="flex justify-center"><img width="132" height="80" class="object-cover h-16 sm:h-20" src="./images/company/Lyft.png" alt="Lyft"></div>
+        </div>
+      </section>
+      <section id="cv" class="text-center pt-10 px-6 pb-16 sm:pt-16 sm:pb-32 md:pt-24 md:pb-44">
+        <p class="italic text-sm font-lora text-gray-dark mb-4 md:text-lg">Découvrez-moi à partir de mon CV</p>
+        <h2 class="relative w-fit  mx-auto font-lora text-2xl mb-4 text-main sm:text-4xl sm:mb-10 md:mb-12 md:text-5xl 
+        after:absolute after:-bottom-0 after:w-full after:h-2 after:bg-red-light after:left-0 after:-z-10 after:sm:h-5 after:sm:-bottom-2">Éducation & Expérience</h2>
+        <p class="text-xs text-gray-dark max-w-xs mx-auto leading-5 sm:text-sm sm:max-w-sm sm:leading-7 lg:max-w-md">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          accusamus magni fuga, ratione cumque adipisci veritatis veniam modi.
+        </p>
+        <div class="grid grid-cols-1 mt-12 mx-auto max-w-xl md:grid-cols-2 md:mt-24 ">
+          <div class="font-lora text-center md:text-left">
+            <div class="mb-10 md:mb-24 md:max-w-[120px]">
+              <p class="text-6xl font-medium mb-2 md:text-8xl md:mb-5">12<span class="text-4xl">+</span></p>
+              <p class="text-xl">Années d'expériences</p>
+            </div>
+            <div class="mb-10 md:mb-24 md:max-w-[120px]">
+              <p class="text-6xl font-medium mb-2 md:text-8xl md:mb-5">52</p>
+              <p class="text-xl">Projets réalisés</p>
+            </div>
+            <div class="mb-10 md:mb-24 md:max-w-[120px]">
+              <p class="text-6xl font-medium mb-2 md:text-8xl md:mb-5">98<span class="text-4xl">%</span></p>
+              <p class="text-xl">Clients satisfaits</p>
+            </div>
+          </div>
+          <div class="mt-10 text-center md:mt-0 md:text-left">
+            <span class="mb-8 inline-block">2021</span>
+            <div class="max-w-260 mx-auto mb-10 md:mx-0 md:max-w-sm">
+              <p class="text-xl font-lora mb-4">
+                Diplôme d’intégrateur & web développeur
+              </p>
+              <p class="text-sm text-gray-dark">3W Academy - Paris</p>
+            </div>
+            <div class="max-w-260 mx-auto mb-10 md:mx-0 md:max-w-sm">
+              <p class="text-xl font-lora mb-4">
+                Intégration & design de maquette web
+              </p>
+              <p class="text-sm text-gray-dark">DEV+ - Rouen</p>
+            </div>
+            <div class="max-w-260 mx-auto mb-10 md:mx-0 md:max-w-sm">
+              <p class="text-xl font-lora mb-4">
+                Développement de site web pour professionnels
+              </p>
+              <p class="text-sm text-gray-dark">WEBATRON - Paris</p>
+            </div>
+            <span class="mb-8 inline-block">2022</span>
+            <div class="max-w-260 mx-auto mb-10 md:mx-0 md:max-w-sm">
+              <p class="text-xl font-lora mb-4">
+                Titre professionnel webdesigner & webmaster
+              </p>
+              <p class="text-sm text-gray-dark">Formation "Cap Design" - Bordeaux</p>
+            </div>
+            <div class="max-w-260 mx-auto mb-16 md:mx-0 md:max-w-sm">
+              <p class="text-xl font-lora mb-4">
+                Développeur web & d'application mobile
+              </p>
+              <p class="text-sm text-gray-dark">ENIGMATIX - Bordeaux</p>
+            </div>
+
+            <a class=" py-4 px-6 max-w-260 bg-main text-xs text-white flex justify-center items-center mx-auto sm:text-sm md:text-base md:px-10 md:max-w-none" href="#competences">Télécharger mon CV <img  class="ml-4 group-hover:translate-y-0.5 duration-200" src="./images/general/ArrowDownload.png" alt="Télécharger le CV"></a>
+
+
+          </div>
+
+
+        </div>
+      </section>
+      <section id="compétences" class="text-center bg-main pt-14 px-6 pb-16 md:pt-20 md:pb-44 lg:pb-24">
+        <p class="italic text-sm font-lora text-gray-light mb-4 md:text-lg">Voici mes technologies préférées</p>
+        <h2 class="relative w-fit  mx-auto font-lora z-0 text-2xl mb-7 text-white sm:text-4xl sm:mb-10 md:mb-12 md:text-5xl 
+        after:absolute after:-bottom-0 after:w-full after:h-2 after:bg-main-light after:left-0 after:-z-10 after:sm:h-5 after:sm:-bottom-2">Mes Compétences</h2>
+        <p class="text-xs text-gray-light max-w-xs mx-auto leading-5 mb-16 sm:mb-6 sm:text-sm sm:max-w-sm sm:leading-7 lg:max-w-md">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          accusamus magni fuga, ratione cumque adipisci veritatis veniam modi.
+        </p>
+        <div class="grid grid-cols-2 max-w-xs mx-auto sm:max-w-md sm:grid-cols-3 md:py-8 lg:flex lg:justify-center lg:items-center lg:max-w-none">
+          <div class="flex flex-col justify-center items-center p-4 lg:mx-6">
+            <img class="mb-4" src="./images/skills/JS.png" alt="Javascript">
+            <p class="font-lora text-xl text-white md:text-2xl">Javascript</p>
+            <p class="italic text-gray-light">9 ans</p>
+          </div>
+          <div class="flex flex-col justify-center items-center p-4 lg:mx-6">
+            <img class="mb-4" src="./images/skills/React.png" alt="React">
+            <p class="font-lora text-xl text-white md:text-2xl">React</p>
+            <p class="italic text-gray-light">5 ans</p>
+          </div>
+          <div class="flex flex-col justify-center items-center p-4 lg:mx-6">
+            <img class="mb-4" src="./images/skills/Flutter.png" alt="Flutter">
+            <p class="font-lora text-xl text-white md:text-2xl">Flutter</p>
+            <p class="italic text-gray-light">3 ans</p>
+          </div>
+          <div class="flex flex-col justify-center items-center p-4 lg:mx-6">
+            <img class="mb-4" src="./images/skills/Sass.png" alt="Sass">
+            <p class="font-lora text-xl text-white md:text-2xl">Sass</p>
+            <p class="italic text-gray-light">6 ans</p>
+          </div>
+          <div class="flex flex-col justify-center items-center p-4 lg:mx-6">
+            <img class="mb-4" src="./images/skills/Node.png" alt="Node">
+            <p class="font-lora text-xl text-white md:text-2xl">Node</p>
+            <p class="italic text-gray-light">5 ans</p>
+          </div>
+          <div class="flex flex-col justify-center items-center p-4 lg:mx-6">
+            <img class="mb-4" src="./images/skills/Mongo.png" alt="Mongo">
+            <p class="font-lora text-xl text-white md:text-2xl">Mongo</p>
+            <p class="italic text-gray-light">5 ans</p>
+          </div>
+        </div>
+      </section>
+      <section id="projets" class="text-center pt-14 px-4 pb-20 sm:pt-20 sm:pb-28 lg:pb-72">
+        <p class="italic text-sm font-lora text-main-light mb-4 sm:text-base md:text-lg">Découvrez mon savoir-faire</p>
+        <h2 class="relative w-fit  mx-auto font-lora z-0 text-2xl mb-7 text-main sm:text-4xl sm:mb-10 md:mb-12 md:text-5xl 
+        after:absolute after:-bottom-0 after:w-full after:h-2 after:bg-red-light after:left-0 after:-z-10 after:sm:h-5 after:sm:-bottom-2">Mes Derniers Projets</h2>
+        <p class="text-xs text-gray-dark max-w-xs mx-auto leading-5 sm:mb-6 sm:text-sm sm:max-w-sm sm:leading-7 lg:max-w-md">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          accusamus magni fuga, ratione cumque adipisci veritatis veniam modi.
+        </p>
+        <div class="grid grid-cols-1 mx-auto max-w-4xl gap-12 mt-12 md:grid-cols-2 md:gap-x-12 md:gap-y-28 md:mt-24 lg:max-w-5xl">
+          <div class="w-full max-w-sm mx-auto cursor-pointer lg:max-w-full">
+            <div class="group relative overflow-hidden mb-4 lg:mb-8">
+              <img src="./images/mockups/mockup1.png" alt="Site e-commerce">
+              <div class="absolute bg-main h-full w-full top-0 left-0 opacity-0 translate-y-full duration-300 group-hover:opacity-70 group-hover:translate-y-0">
+                <a class="font-semibold h-full w-full text-white flex justify-center items-center sm:text-lg lg:text-2xl">Visiter le site</a>
+              </div>
+            </div>
+            <h3 class="text-xl text-main mb-3 font-medium font-lora text-left sm:text-2xl">Site E-commerce</h3>
+            <p class="text-xs text-gray-dark text-left max-w-xs leading-5 sm:text-sm sm:max-w-sm sm:leading-7 lg:max-w-md">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              accusamus magni fuga, ratione cumque adipisci veritatis veniam modi.
+            </p>
+          </div>
+          <div class="w-full max-w-sm mx-auto cursor-pointer lg:max-w-full lg:even:translate-y-40">
+            <div class="group relative overflow-hidden mb-4 lg:mb-8">
+              <img src="./images/mockups/mockup2.png" alt="Application Mobile">
+              <div class="absolute bg-main h-full w-full top-0 left-0 opacity-0 translate-y-full duration-300 group-hover:opacity-70 group-hover:translate-y-0">
+                <a class="font-semibold h-full w-full text-white flex justify-center items-center sm:text-lg lg:text-2xl">Visiter le site</a>
+              </div>
+            </div>
+            <h3 class="text-xl text-main mb-3 font-medium font-lora text-left sm:text-2xl">Application Mobile pour la Domotique</h3>
+            <p class="text-xs text-gray-dark text-left max-w-xs leading-5 sm:text-sm sm:max-w-sm sm:leading-7 lg:max-w-md">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              accusamus magni fuga, ratione cumque adipisci veritatis veniam modi.
+            </p>
+          </div>
+          <div class="w-full max-w-sm mx-auto cursor-pointer lg:max-w-full">
+            <div class="group relative overflow-hidden mb-4 lg:mb-8">
+              <img src="./images/mockups/mockup3.png" alt="Constructeur d'Immeubles">
+              <div class="absolute bg-main h-full w-full top-0 left-0 opacity-0 translate-y-full duration-300 group-hover:opacity-70 group-hover:translate-y-0">
+                <a class="font-semibold h-full w-full text-white flex justify-center items-center sm:text-lg lg:text-2xl">Visiter le site</a>
+              </div>
+            </div>
+            <h3 class="text-xl text-main mb-3 font-medium font-lora text-left sm:text-2xl">Site de Constructeur d'Immeubles</h3>
+            <p class="text-xs text-gray-dark text-left max-w-xs leading-5 sm:text-sm sm:max-w-sm sm:leading-7 lg:max-w-md">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              accusamus magni fuga, ratione cumque adipisci veritatis veniam modi.
+            </p>
+          </div>
+          <div class="w-full max-w-sm mx-auto cursor-pointer lg:max-w-full lg:even:translate-y-40">
+            <div class="group relative overflow-hidden mb-4 lg:mb-8">
+              <img src="./images/mockups/mockup4.png" alt="Montage Vidéo">
+              <div class="absolute bg-main h-full w-full top-0 left-0 opacity-0 translate-y-full duration-300 group-hover:opacity-70 group-hover:translate-y-0">
+                <a class="font-semibold h-full w-full text-white flex justify-center items-center sm:text-lg lg:text-2xl">Visiter le site</a>
+              </div>
+            </div>
+            <h3 class="text-xl text-main mb-3 font-medium font-lora text-left sm:text-2xl">Application pour Montage Vidéo</h3>
+            <p class="text-xs text-gray-dark text-left max-w-xs leading-5 sm:text-sm sm:max-w-sm sm:leading-7 lg:max-w-md">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              accusamus magni fuga, ratione cumque adipisci veritatis veniam modi.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="max-w-4xl mx-auto border-solid border-t-2 border-gray-light py-20 px-4 md:py-28 lg:py-32">
+        <p class="font-lora text-main mb-14 text-3xl font-medium leading-snug mx-auto text-center max-w-lg sm:text-4xl sm:leading-snug sm:max-w-xl sm:mb-20 md:text-5xl md:max-w-3xl md:leading-snug">Faites-moi savoir si vous êtes intéressés par une <span class="font-bold italic">potentielle collaboration.</span> Je suis disponible pour du travail en Freelance.</p>
+        <div class="flex flex-col text-main justify-center items-center md:flex-row">
+          <div class="bg-zinc-50 border rounded-sm py-16 px-4 mb-5 max-w-xs mx-auto w-full md:mb-0">
+            <img width="66" height="48" class="block mx-auto mb-10" src="./images/footer/Mail.png" alt="adresse mail">
+            <p class="font-semibold text-center mb-1 md:text-lg md:font-bold lg:text-xl">Adresse mail</p>
+            <p class="font-light text-center md:text-lg md:font-normal">janecooper@gmail.com</p>
+          </div>
+          <div class="bg-zinc-50 border rounded-sm py-16 px-4 max-w-xs mx-auto w-full">
+            <img width="48" height="48" class="block mx-auto mb-10" src="./images/footer/Phone.png" alt="téléphone">
+            <p class="font-semibold text-center mb-1 md:text-lg md:font-bold lg:text-xl">Numéro de téléphone</p>
+            <p class="font-light text-center md:text-lg md:font-normal">06 52 62 88 92</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-main px-8 py-12 lg:py-8">
+      <div class="flex flex-col justify-center items-center mx-auto max-w-4xl lg:flex-row lg:justify-between">
+        <p class="text-white underline">jane.cooper@gmail.com</p>
+        <div class="flex my-4 lg:order-3">
+          <a class="p-2" href="#"><img class="h-4" src="./images/social-media/facebook.png" alt="facebook"></a>
+          <a class="p-2" href="#"><img class="h-4" src="./images/social-media/instagram.png" alt="instagram"></a>
+          <a class="p-2" href="#"><img class="h-4" src="./images/social-media/twitter.png" alt="twitter"></a>
+          <a class="p-2" href="#"><img class="h-4" src="./images/social-media/linkedin.png" alt="linkedin"></a>
+        </div>
+        <p class="text-white font-lora">
+          © Copyright Jane Cooper. Tous droit réservés.
+        </p>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
